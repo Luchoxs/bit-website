@@ -1,6 +1,7 @@
-# Actividad numero 1 BIT
+# Pagina de presetnacion personal Bit
 ---
-Este proyecto tiene como objetivo crear una presentacion personal
+## Objetivo
+Este proycto presenta mi informacion personal y profesional utilizando todos los conocimientos adquiridos hasta el momento sobre css y html.
 
 ---
-Autor: Luis Carlos Escorcia
+## Autor: Luis Carlos Escorcia
