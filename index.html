@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png"  href="./assets/favicon.ico">
+    <link rel="icon" type="image/png"  href="./assets/icons/favicon.ico">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="./index.css">
     <title> Mi presentacion</title>
@@ -12,9 +12,9 @@
     <header>
         <nav class="navbar">
             <ul>
-                <li> <a href="">Principal </a></li>
-                <li> <a href="">Proyectos</a></li>
-                <li> <a href="">Contactame </a></li>
+                <li> <a href="./index.html">Principal </a></li>
+                <li> <a href="https://github.com/Luchoxs?tab=repositories" target="_blank" class="social-link">Proyectos</a></li>
+                <li> <a href="./pages/contac.html">Contactame </a></li>
             </ul>
         </nav>
         <section class="mithic"> 
@@ -33,10 +33,10 @@
     <section class="contenido1">
         <aside class="menu">
             <ul>
-                <li> <a href=""> sesion 1</a></li>
-                <li> <a href="">Sesion 2 </a></li>
-                <li> <a href="">Sesion 3 </a></li>
-                <li> <a href="">Sesion 4 </a></li>
+                <li> <a href="#hobbies"> Hobbies y gustos</a></li>
+                <li> <a href="#tiempo">Tiempo dedicado</a></li>
+                <li> <a href="#animes">Recomendacion de animes </a></li>
+                <li> <a href="#destacado">Destacado </a></li>
                 </li>
             </ul>
         </aside>
@@ -79,7 +79,7 @@
             Mi historia está llena de cambios, aprendizajes, pasiones y muchas ganas de seguir creciendo, siempre buscando construir algo con sentido, con lógica... y si se puede, con estilo también.</p>
     </section>
     <h2> Hobbies y gustos</h2>
-    <section class="HobGust">
+    <section id= "hobbies" class="HobGust">
         <article>
         <p> primero hablare de mis gustos y luego de mis hobbies. <br>
             &#127912; Tengo una conexión especial con el arte, pero no cualquier tipo de arte... me encanta el arte fantástico, ese que mezcla lo irreal con lo épico, que te transporta a otros mundos y activa la imaginación al máximo. También soy fan de las hamburguesas (sí, podría comerlas a toda hora), la música electrónica, que me carga de energía, y la música romántica, que me baja las revoluciones cuando hace falta. <br>
@@ -95,7 +95,7 @@
     </article>
     </section>
     <h2> Tiempo dedicado</h2>
-    <section>
+    <section id="tiempo">
         <p style="text-align: center;"> Aqui les mostrare cuanto tiempo dedico a mis hobbies</p>
         <table class="tabla">
             <caption>Resumen de actividades</caption>
@@ -137,7 +137,7 @@
     </section>
     <h2> Recomendacion de animes</h2>
     <p style="text-align: center; margin-bottom: 15px;"> les dare unas cuantas recomendaciones de mi animes (cuando tenia mucho tiempo de verlos)</p>
-    <section class="DL">
+    <section id= "animes" class="DL">
         
         <dl>
             <dt><strong>Jujutsu Kaisen</strong></dt>
@@ -152,11 +152,49 @@
 
           </dl>
     </section>
+    <section id= "destacado" class="VXS">
+      <h2>Videojuego favorito y canción de la infancia</h2>
+      <p>Hoy quiero compartir contigo dos de las cosas que marcaron mi vida y aún me sacan una sonrisa: un videojuego que me hizo perderme en mundos épicos y una canción que me transporta directo a la niñez.</p>
+      
+      <div class="CONTENIDO">
+        <article>
+          <iframe src="https://www.youtube.com/embed/kxVFcxMU72E" allowfullscreen></iframe>
+          <p><strong>Remnant 2</strong> es un juego de acción y supervivencia en un mundo postapocalíptico, donde cada enfrentamiento pone a prueba tu habilidad y estrategia. Con mecánicas sólidas y un diseño visual impresionante, se ha ganado un lugar especial en mi lista de favoritos.</p>
+        </article>
+        
+        <article class="digimon-article">
+          <img src="./assets/Digimon_Frontier.jpg" alt="Imagen de Digimon Frontier" class="digimon-image" />
+          
+          <audio controls class="digimon-audio">
+            <source src="./assets/opDigimon.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+          </audio>
+        
+          <p class="digimon-description">
+            <strong>Digimon Frontier</strong> fue una temporada única en la saga Digimon, donde los protagonistas no solo se aliaban con los Digimon, sino que se transformaban en ellos. Una historia cargada de aventuras, vínculos profundos y un mundo digital lleno de misterios.
+          </p>
+        </article>
+      </div>
+    </section>
     </main>
 
 
-    <footer> 
-
+    <footer class="footer">
+      <div class="footer-contenido">
+        <p class="footer-text">Gracias por tomarte el tiempo de leer sobre mí y conocer un pedacito de lo que me apasiona.</p>
+        
+        <div class="footer-redes">
+          <a href="https://www.facebook.com/luis.escorciamanga/" target="_blank" class="social-link">
+            <img src="./assets/icons/facebook.png" alt="Facebook" class="social-icono">
+          </a>
+          <a href="https://www.instagram.com/luisem246/" target="_blank" class="social-link">
+            <img src="./assets/icons/instagram.png" alt="Instagram" class="social-icono">
+          </a>
+          <a href="https://co.pinterest.com/macotoplon24/" target="_blank" class="social-link">
+            <img src="./assets/icons/pinterest.png" alt="Pinterest" class="social-icono">
+          </a>
+        </div>
+      </div>
     </footer>
 </body>
 </html>
