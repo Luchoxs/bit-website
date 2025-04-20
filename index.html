@@ -6,6 +6,9 @@
     <link rel="icon" type="image/png"  href="./assets/icons/favicon.ico">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
     <title> Mi presentacion</title>
 </head>
 <body>
@@ -25,12 +28,12 @@
              <img  src="./assets/mithic_NB-Photoroom.png" alt="Mi personaje caracteristico"> 
             </div> 
             <div> 
-             <img id= "hechicero" src="./assets/gato hechicero.png" alt = "gigante noble" 
+             <img id= "hechicero" src="./assets/gato hechicero.png" alt = "gigante noble" >
             </div>
         </section>        
     </header>
     <main>
-    <section class="contenido1">
+    <section class="contenido1"> <!-- -->
         <aside class="menu">
             <ul>
                 <li> <a href="#hobbies"> Hobbies y gustos</a></li>
@@ -40,7 +43,7 @@
                 </li>
             </ul>
         </aside>
-        <article>
+        <article class="item2">
             <p> Hey, soy Luis Escorcia. &#128540;<br>
                 En esta paginita te voy a mostrar un pedazo de mí: lo que me gusta, mis hobbies, mis pasiones, mi historia, y también lo que espero del futuro. <br>
                 
@@ -79,7 +82,7 @@
             Mi historia está llena de cambios, aprendizajes, pasiones y muchas ganas de seguir creciendo, siempre buscando construir algo con sentido, con lógica... y si se puede, con estilo también.</p>
     </section>
     <h2> Hobbies y gustos</h2>
-    <section id= "hobbies" class="HobGust">
+    <section class="HobGust">
         <article>
         <p> primero hablare de mis gustos y luego de mis hobbies. <br>
             &#127912; Tengo una conexión especial con el arte, pero no cualquier tipo de arte... me encanta el arte fantástico, ese que mezcla lo irreal con lo épico, que te transporta a otros mundos y activa la imaginación al máximo. También soy fan de las hamburguesas (sí, podría comerlas a toda hora), la música electrónica, que me carga de energía, y la música romántica, que me baja las revoluciones cuando hace falta. <br>
@@ -95,7 +98,7 @@
     </article>
     </section>
     <h2> Tiempo dedicado</h2>
-    <section id="tiempo">
+    <section >
         <p style="text-align: center;"> Aqui les mostrare cuanto tiempo dedico a mis hobbies</p>
         <table class="tabla">
             <caption>Resumen de actividades</caption>
@@ -108,29 +111,29 @@
             </thead>
             <tbody>
               <tr>
-                <td>Videojuegos</td>
-                <td>Diariamente</td>
-                <td>2 horas</td>
+                <td data-label="Actividad ">Videojuegos</td>
+                <td data-label="Frecuencia ">Diariamente</td>
+                <td data-label="Duracion ">2 horas</td>
               </tr>
               <tr>
-                <td>Gimnasio</td>
-                <td>3 veces por semana</td>
-                <td>1 hora</td>
+                <td data-label="Actividad ">Gimnasio</td>
+                <td data-label="Frecuencia ">3 veces por semana</td>
+                <td data-label="Duracion ">1 hora</td>
               </tr>
               <tr>
-                <td>Ver anime</td>
-                <td>Fines de semana</td>
-                <td>Variable</td>
+                <td data-label="Actividad ">Ver anime</td>
+                <td data-label="Frecuencia ">Fines de semana</td>
+                <td data-label="Duracion ">Variable</td>
               </tr>
               <tr>
-                <td>Juegos de mesa</td>
-                <td>De vez en cuando</td>
-                <td>2-3 horas</td>
+                <td data-label="Actividad ">Juegos de mesa</td>
+                <td data-label="Frecuencia ">De vez en cuando</td>
+                <td data-label="Duracion ">2-3 horas</td>
               </tr>
             </tbody>
             <tfoot>
               <tr>
-                <td colspan="3">Hobbies personales - Actualizado en 2025</td>
+                <td id="dif" colspan="3">Hobbies personales - Actualizado en 2025</td>
               </tr>
             </tfoot>
           </table>
