@@ -144,6 +144,9 @@ section{
   .contenido1 .item2 {
     grid-row: 2; 
   }
+  .contenido1 .item2 ul{
+    font-family: var(--fuente_parrafos);
+  }
 
   .contenido1 .imgPresentacion {
     grid-row: 1; 
