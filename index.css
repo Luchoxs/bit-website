@@ -89,6 +89,9 @@ section{
     
     height: 10px;
 }
+.navbar ul li:hover{
+  background-color: #000000;
+}
 
 .contenido1{
     margin: 20px 0px;
@@ -123,6 +126,9 @@ section{
     padding: 5px;
     background-color: var(--color_fondo_li);
     border-radius: 20%;
+}
+.menu ul li:hover{
+  background-color: #000000;
 }
 .menu ul li a{
     color: antiquewhite;
