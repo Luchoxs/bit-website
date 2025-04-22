@@ -86,7 +86,7 @@ section{
 }
 .navbar ul li a{
     color: antiquewhite;
-    
+    text-decoration: none;
     height: 10px;
 }
 .navbar ul li:hover{
@@ -132,6 +132,7 @@ section{
 }
 .menu ul li a{
     color: antiquewhite;
+    text-decoration: none;
     
 }
 @media screen and (max-width: 768px) {
